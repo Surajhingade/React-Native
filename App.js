@@ -1,21 +1,40 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// import libraries to create component
+import React from 'react'
+import { Text,StyleSheet,View} from 'react-native'
+// import { View } from 'react-native-web';
+import First from './src/components/First';
+import FirstChallange from './src/components/FirstChallange';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Hello suraj welcome to react native</Text>
-      <StatusBar style="auto" />
+// Create component that return some jsx and simple function
+
+const App = ()=>{
+  return(
+    <>
+    <View style={style.app}>
+    <Text style={style.textStyle}>Hello suraj bhau  </Text>
+    <First/>
+    <FirstChallange />
     </View>
-  );
-}
+    </>
+  )
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+// create a stylesheet to style the component
+
+const style = StyleSheet.create({
+  textStyle : {
+       color:"red",
+       marginTop:100,
+       marginLeft:50
+       
   },
- 
+  app : {
+      marginLeft:100,
+       
+
+  },
 });
+
+// export the file , so that we can use it anywhere
+
+export default App;
