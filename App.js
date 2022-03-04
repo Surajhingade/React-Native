@@ -2,6 +2,7 @@
 import React from 'react'
 import { Text,StyleSheet,View,Image} from 'react-native'
 import Btn from './src/components/Btn';
+import SampleCard from './src/components/SampleCard';
 import Touchable from './src/components/Touchable';
  
 
@@ -12,9 +13,11 @@ const App = ()=>{
     
     <View style={style.app}>
       {/* button component */}
-  <Btn />
+  {/* <Btn /> */}
   {/* touchableOpacity  */}
-<Touchable TouchTitle = "click here to join instagram page" />
+{/* <Touchable TouchTitle = "click here to join instagram page" /> */}
+{/* Simple Card create */}
+<SampleCard />
    
     </View>
     
