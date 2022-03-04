@@ -1,23 +1,23 @@
 // import libraries to create component
 import React from 'react'
-import { Text,StyleSheet,View} from 'react-native'
-// import { View } from 'react-native-web';
-import First from './src/components/First';
-import FirstChallange from './src/components/FirstChallange';
-import FlatDemo from './src/components/FlatDemo';
+import { Text,StyleSheet,View,Image} from 'react-native'
+import Btn from './src/components/Btn';
+import Touchable from './src/components/Touchable';
+ 
 
 // Create component that return some jsx and simple function
 
 const App = ()=>{
   return(
-    <>
+    
     <View style={style.app}>
-    <Text style={style.textStyle}>Hello suraj bhau  </Text>
-    <First/>
-    <FirstChallange />
-    <FlatDemo/>
+      {/* button component */}
+  <Btn />
+  {/* touchableOpacity  */}
+<Touchable TouchTitle = "click here to join instagram page" />
+   
     </View>
-    </>
+    
   )
 };
 
@@ -31,10 +31,10 @@ const style = StyleSheet.create({
        
   },
   app : {
-      marginLeft:50,
-       
-
-  },
+      margin:50
+  
+  } 
+   
 });
 
 // export the file , so that we can use it anywhere
