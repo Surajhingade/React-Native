@@ -4,6 +4,7 @@ import { Text,StyleSheet,View} from 'react-native'
 // import { View } from 'react-native-web';
 import First from './src/components/First';
 import FirstChallange from './src/components/FirstChallange';
+import FlatDemo from './src/components/FlatDemo';
 
 // Create component that return some jsx and simple function
 
@@ -14,6 +15,7 @@ const App = ()=>{
     <Text style={style.textStyle}>Hello suraj bhau  </Text>
     <First/>
     <FirstChallange />
+    <FlatDemo/>
     </View>
     </>
   )
@@ -23,13 +25,13 @@ const App = ()=>{
 
 const style = StyleSheet.create({
   textStyle : {
-       color:"red",
+       color:"blue",
        marginTop:100,
        marginLeft:50
        
   },
   app : {
-      marginLeft:100,
+      marginLeft:50,
        
 
   },
