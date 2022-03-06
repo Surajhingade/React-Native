@@ -32,6 +32,7 @@ const style = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     
+    
   },
   header: {
     fontSize: 30,
@@ -41,6 +42,9 @@ const style = StyleSheet.create({
     width: 250,
     borderWidth: 1,
     alignItems: "center",
+    textShadowColor:'red',
+    textShadowOffset: {width:5,height: 10},
+    textShadowRadius:30,
   },
 //   complete width of image
   imageStyle:{
