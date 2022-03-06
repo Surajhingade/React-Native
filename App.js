@@ -3,6 +3,7 @@ import React from 'react'
 import { Text,StyleSheet,View,Image} from 'react-native'
 import BoxModelInReactNative from './src/components/BoxModelInReactNative';
 import Btn from './src/components/Btn';
+import ColorGeneratorApp from './src/components/ColorGeneratorApp';
 import CounterApp from './src/components/CounterApp';
 import CssPosition from './src/components/CssPosition';
 import Flexbox from './src/components/Flexbox';
@@ -38,8 +39,10 @@ const App = ()=>{
 {/* <Flexbox /> */}
 
 {/* Counter app using useState */}
-<CounterApp />
+{/* <CounterApp /> */}
+
     </View>
+<ColorGeneratorApp />
 </>
     
   )

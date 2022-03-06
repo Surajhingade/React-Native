@@ -4,7 +4,7 @@ import { Text,StyleSheet,Button     } from 'react-native';
 
 const CounterApp = () => {
 
-const [counter,setCounter] = useState(100);
+const [counter,setCounter] = useState(0);
 
 const handlePlus = () =>{
     setCounter(counter + 10);
@@ -31,9 +31,9 @@ const handleReset = ()=>{
     <Button title="+10" onPress={handlePlus} style={[ style.Button1]}  color="black"  />
     <Text style={style.seperater} />
     
-    <Button title='Reset' onPress={handleReset } style={[style.Button,style.Button2]} />
+    <Button title='Reset' onPress={handleReset } style={[style.Button,style.Button2]} color="red" />
     <Text style={style.seperater} />
-    <Button title="-10" onPress={handleSub}  style={[style.Button,style.Button3]} />
+    <Button title="-10" onPress={handleSub}  style={[style.Button,style.Button3]} color="green" />
     
 
   </>
@@ -72,6 +72,7 @@ const style = StyleSheet.create({
         fontWeight:"bold",
         fontSize:35,
         // textDecorationStyle:"solid"
+        marginTop:100
 
 
     },
