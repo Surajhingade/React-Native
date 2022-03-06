@@ -3,6 +3,7 @@ import React from 'react'
 import { Text,StyleSheet,View,Image} from 'react-native'
 import BoxModelInReactNative from './src/components/BoxModelInReactNative';
 import Btn from './src/components/Btn';
+import Flexbox from './src/components/Flexbox';
 import MultipleBoxInOneElement from './src/components/MultipleBoxInOneElement';
 import SampleCard from './src/components/SampleCard';
 import ScrollingEffect from './src/components/ScrollingEffect';
@@ -13,7 +14,7 @@ import Touchable from './src/components/Touchable';
 
 const App = ()=>{
   return(
-    
+    <>
     <View style={style.app}>
       {/* button component */}
   {/* <Btn /> */}
@@ -28,8 +29,11 @@ const App = ()=>{
 {/* <BoxModelInReactNative / > */}
 {/* scrolling effect  */}
 <ScrollingEffect />
+{/* flexbox */}
    
     </View>
+<Flexbox />
+</>
     
   )
 };

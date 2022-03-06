@@ -9,37 +9,37 @@ const ScrollingEffect = () => {
         address:"at post mulawa",
         education: "BCA"
     },{
-        name:"suraj hingade",
+        name:"suraj hingade2",
         index:9,
         age:20,
         address:"at post mulawa",
         education: "BCA"
     },{
-        name:"suraj hingade",
+        name:"suraj hingade3",
         index:10,
         age:20,
         address:"at post mulawa",
         education: "BCA"
     },{
-        name:"suraj hingade",
+        name:"suraj hingade4",
         index:2,
         age:20,
         address:"at post mulawa",
         education: "BCA"
     },{
-        name:"suraj hingade",
+        name:"suraj hingade5",
         index:3,
         age:20,
         address:"at post mulawa",
         education: "BCA"
     },{
-        name:"suraj hingade",
+        name:"suraj hingade6",
         index:4,
         age:20,
         address:"at post mulawa",
         education: "BCA"
     },{
-        name:"suraj hingade",
+        name:"suraj hingade7",
         index:5,
         age:20,
         address:"at post mulawa",
@@ -51,13 +51,13 @@ const ScrollingEffect = () => {
         address:"at post mulawa",
         education: "BCA"
     },{
-        name:"suraj hingade",
+        name:"suraj hingade8",
         index:7,
         age:20,
         address:"at post mulawa",
         education: "BCA"
     },{
-        name:"suraj hingade",
+        name:"suraj hingade9",
         index:8,
         age:20,
         address:"at post mulawa",
@@ -72,7 +72,7 @@ const ScrollingEffect = () => {
         // style={style.flatList}
         data={Data}
         horizontal
-        // numColumns={3}
+        // numColumns={1}
         showsHorizontalScrollIndicator={false}
         showsVerticalScrollIndicator={false}
         keyExtractor={(key)=>{
