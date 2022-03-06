@@ -3,6 +3,7 @@ import React from 'react'
 import { Text,StyleSheet,View,Image} from 'react-native'
 import BoxModelInReactNative from './src/components/BoxModelInReactNative';
 import Btn from './src/components/Btn';
+import CssPosition from './src/components/CssPosition';
 import Flexbox from './src/components/Flexbox';
 import MultipleBoxInOneElement from './src/components/MultipleBoxInOneElement';
 import SampleCard from './src/components/SampleCard';
@@ -30,9 +31,11 @@ const App = ()=>{
 {/* scrolling effect  */}
 <ScrollingEffect />
 {/* flexbox */}
+{/* css position */}
+<CssPosition / >
    
+{/* <Flexbox /> */}
     </View>
-<Flexbox />
 </>
     
   )
