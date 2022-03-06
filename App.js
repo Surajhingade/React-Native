@@ -1,6 +1,7 @@
 // import libraries to create component
 import React from 'react'
 import { Text,StyleSheet,View,Image} from 'react-native'
+import BoxModelInReactNative from './src/components/BoxModelInReactNative';
 import Btn from './src/components/Btn';
 import MultipleBoxInOneElement from './src/components/MultipleBoxInOneElement';
 import SampleCard from './src/components/SampleCard';
@@ -21,7 +22,9 @@ const App = ()=>{
 {/* <SampleCard /> */}
 
 {/* MultipleBoxInOneElement component  */}
-<MultipleBoxInOneElement />
+{/* <MultipleBoxInOneElement /> */}
+{/*  box model  */}
+<BoxModelInReactNative / >
    
     </View>
     
@@ -34,9 +37,11 @@ const style = StyleSheet.create({
   textStyle : {
        color:"blue",
        marginTop:100,
-       marginLeft:50
+       marginLeft:50,
+       
        
   },
+  
   app : {
       margin:50
   
