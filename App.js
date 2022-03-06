@@ -5,6 +5,7 @@ import BoxModelInReactNative from './src/components/BoxModelInReactNative';
 import Btn from './src/components/Btn';
 import MultipleBoxInOneElement from './src/components/MultipleBoxInOneElement';
 import SampleCard from './src/components/SampleCard';
+import ScrollingEffect from './src/components/ScrollingEffect';
 import Touchable from './src/components/Touchable';
  
 
@@ -24,7 +25,9 @@ const App = ()=>{
 {/* MultipleBoxInOneElement component  */}
 {/* <MultipleBoxInOneElement /> */}
 {/*  box model  */}
-<BoxModelInReactNative / >
+{/* <BoxModelInReactNative / > */}
+{/* scrolling effect  */}
+<ScrollingEffect />
    
     </View>
     
@@ -41,7 +44,7 @@ const style = StyleSheet.create({
        
        
   },
-  
+
   app : {
       margin:50
   
