@@ -3,6 +3,7 @@ import React from 'react'
 import { Text,StyleSheet,View,Image} from 'react-native'
 import BoxModelInReactNative from './src/components/BoxModelInReactNative';
 import Btn from './src/components/Btn';
+import CounterApp from './src/components/CounterApp';
 import CssPosition from './src/components/CssPosition';
 import Flexbox from './src/components/Flexbox';
 import MultipleBoxInOneElement from './src/components/MultipleBoxInOneElement';
@@ -29,12 +30,15 @@ const App = ()=>{
 {/*  box model  */}
 {/* <BoxModelInReactNative / > */}
 {/* scrolling effect  */}
-<ScrollingEffect />
+{/* <ScrollingEffect /> */}
 {/* flexbox */}
 {/* css position */}
-<CssPosition / >
+{/* <CssPosition / > */}
    
 {/* <Flexbox /> */}
+
+{/* Counter app using useState */}
+<CounterApp />
     </View>
 </>
     
