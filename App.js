@@ -7,6 +7,7 @@ import ColorGeneratorApp from './src/components/ColorGeneratorApp';
 import CounterApp from './src/components/CounterApp';
 import CssPosition from './src/components/CssPosition';
 import Flexbox from './src/components/Flexbox';
+import HookEffect from './src/components/HookEffect';
 import MultipleBoxInOneElement from './src/components/MultipleBoxInOneElement';
 import SampleCard from './src/components/SampleCard';
 import ScrollingEffect from './src/components/ScrollingEffect';
@@ -40,9 +41,13 @@ const App = ()=>{
 
 {/* Counter app using useState */}
 {/* <CounterApp /> */}
+{/* useEffect hook */}
+{/* <HookEffect/> */}
+
 
     </View>
-<ColorGeneratorApp />
+    {/* colorgenerator app */}
+{/* <ColorGeneratorApp /> */}
 </>
     
   )
